@@ -1,0 +1,14 @@
+__How the backend Connects__
+Frontend sends JSON  →  validated against a Schema
+                              ↓
+                    Router calls a CRUD function
+                              ↓
+              CRUD function uses the Model to build a query
+                              ↓
+                     Postgres actually runs it
+                              ↓
+              Result comes back as a Model object
+                              ↓
+                  Converted back into a Schema (response)
+                              ↓
+                    Sent to frontend as JSON
