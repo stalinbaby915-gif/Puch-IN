@@ -51,6 +51,7 @@ Puch-IN/
 ```
 
 ## Status
+✅ Backend complete — data model, database, and all core API endpoints (punch in/out, locations, shift history) built and tested end-to-end against a live Postgres database.
 
 🚧 Work in progress — building backend and database schema first, then frontend.
 
